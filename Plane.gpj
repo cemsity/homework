@@ -1,0 +1,23 @@
+!1157;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SCU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+S+U0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012File\012CLASSPATH+=.%;\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012ProjectOrFile\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Debug +Debug_Applet\012CLASSPATH=+%;%<INJECTION_CLASSPATHS>\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012CLASSPATH+=%<CLASSES_DIR>%;\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SyU0PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!2356;d
+[\012  grasp [\012   legendy -33.0\012   legendx -0.25\012   version 1\012   winflags 3\012   eheight 972\012   ewidth 960\012   height 972\012   width 960\012   wbp 0\012   initlayout 0\012   yoffs 1.75\012   xoffs -2.0\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 2097152\012    classname "WingTest"\012    fromclassfiledate 0\012    fromclassfilename "%\011WingTest.class"\012    fromfilename "%\011WingTest.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x -90.5\012     y 159.5\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "altitudeCruise\\011D\\011\\0112\\011\\011\\011Wing\011altitudeTO\\011D\\011\\0112\\011\\011\\011Wing\011cLiftCruise\\011D\\011\\0112\\011\\011\\011Wing\011cLiftMax\\011D\\011\\0112\\011\\011\\011Wing\011chord\\011D\\011\\0112\\011\\011\\011Wing\011rho\\011[[D\\011\\0112\\011\\011\\011Wing\011span\\011D\\011\\0112\\011\\011\\011Wing\011vCruise\\011D\\011\\0112\\011\\011\\011Wing\011vStall\\011D\\011\\0112\\011\\011\\011Wing\011Wing\\011()V\\011c\\0111\\011\\011\\011Wing\011Wing\\011(DDDDDDDD)V\\011\\0111\\011\\011\\011Wing\011dynamicPressCruise\\011(II)D\\011\\0111\\011\\011\\011Wing\011dynamicPressStall\\011(II)D\\011\\0111\\011\\011\\011Wing\011getChord\\011()D\\011\\0111\\011\\011\\011Wing\011getRho\\011(II)D\\011\\0111\\011\\011\\011Wing\011getSpan\\011()D\\011\\0111\\011\\011\\011Wing\011knotToFeet\\011(D)D\\011\\0111\\011\\011\\011Wing\011setCLiftCruise\\011(D)V\\011\\0111\\011\\011\\011Wing\011setCLiftMax\\011(D)V\\011\\0111\\011\\011\\011Wing\011setChord\\011(D)V\\011\\0111\\011\\011\\011Wing\011setSpan\\011(D)V\\011\\0111\\011\\011\\011Wing\011totalLift\\011(IIZ)D\\011\\0111\\011\\011\\011Wing\011wingArea\\011()D\\011\\0111\\011\\011\\011Wing\011wingLoad\\011(IIZ)D\\011\\0111\\011\\011\\011Wing"\012    condition 0\012    access2 0\012    access 2228257\012    classname "Wing"\012    fromclassfiledate 1424046697031\012    fromclassfilename "%\011Wing.class"\012    fromfilename "%\011Wing.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x -3.0\012     y 0.75\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012 ]!1;k
+1!54;g
+%\011Wing.java
+%\011PowerLoad.java
+%\011WingTest.java
+!54;f
+%\011Wing.java
+%\011PowerLoad.java
+%\011WingTest.java
