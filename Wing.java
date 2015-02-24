@@ -62,7 +62,41 @@ public class Wing{
 	{
 		return rho[alt][temp];
 	}
-
+	
+	public double	getvCruise()
+	{
+		return vCruise;
+	}
+	
+	public double	getvStall()
+	{
+		return vStall;
+	}
+	
+	public double	getcLiftMax()
+	{
+		return cLiftMax;
+	}
+	
+	public double	getcLiftCruise()
+	{
+		return cLiftCruise;
+	}
+	
+	public int	getaltitudeTO()
+	{
+		return altitudeTO;
+	}
+	
+	public int	getaltitudeCruise()
+	{
+		return altitudeCruise;
+	}
+	
+	public int	getdayTemp()
+	{
+		return dayTemp;
+	}
 
 	//	mutators	\ setters
 
