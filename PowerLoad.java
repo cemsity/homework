@@ -11,7 +11,7 @@ public class PowerLoad{
         return con*Math.pow(vmax, exp);
     }
 
-    public double fgnd()    //fix gear normal Design
+    public double fixedGearAluminum()    //fix gear normal Design
     {
         return pleq(215, -0.61);
     }
@@ -21,7 +21,7 @@ public class PowerLoad{
         return pleq(276, -0.65);
     }
 
-    public double fgsd()   //fix gear smooth Design
+    public double fixedGearSmooth()   //fix gear smooth Design
     {
         return pleq(248, -0.61);
     }
