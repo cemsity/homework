@@ -17,8 +17,10 @@ public class AircraftDesignGUI extends JFrame
       super( "Aircraft Design" );
       JTabbedPane tabbedPane = new JTabbedPane(); // create JTabbedPane
 
-      tabbedPane.addTab( "Power Loading", null, new PowerLoadingGUI(), "Power Loading Panel" );
-
+      tabbedPane.addTab( "Power Loading", null, new PowerLoadGUI(), "Power Loading Panel" );
+      tabbedPane.addTab( "Wing Calculator", null, new WingGUI(), "Wing Calculator Panel" );
+      
+      
       add( tabbedPane ); // add JTabbedPane to frame
       
       setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
