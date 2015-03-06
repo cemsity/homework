@@ -24,7 +24,7 @@ public class AircraftDesignGUI extends JFrame
       add( tabbedPane ); // add JTabbedPane to frame
       
       setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-      setSize( 250, 200 ); // set frame size
+      setSize( 640  , 480 ); // set frame size
       setVisible( true ); // display frame
 
    } // end JTabbedPaneFrame constructor
