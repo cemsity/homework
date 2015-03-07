@@ -33,7 +33,7 @@ private JButton      bCalc;
 // constructor
 public WingGUI()
 {
-setLayout( new GridLayout( 7, 5, 2,2));
+setLayout( new GridLayout( 8, 5, 2,2));
 
 add( new JLabel( "Span"));
 tfSpan = new JTextField();
@@ -94,14 +94,21 @@ bCalc.addActionListener(new ButtonHandler());
 add(bCalc);
 
 //lblWingArea, lblDynamicPressCruise, lblDynamicPressStall;
+
+add(new JLabel("Wing Area"));
+
+add(new JLabel("Cruising Dynamic Pressure"));
+
+add(new JLabel("Stalling Dynamic Pressure"));
+add( new JLabel( ""));
+add( new JLabel( ""));
+
 lblWingArea = new JLabel("Wing Area");
-add(lblWingArea);
-lblDynamicPressCruise = new JLabel("Cruising Dynamic Pressure");
-add(lblDynamicPressCruise);
+lblDynamicPressCruise= new JLabel("Cruising Dynamic Pressure");
 lblDynamicPressStall = new JLabel("Stalling Dynamic Pressure");
+add(lblWingArea);
+add(lblDynamicPressCruise);
 add(lblDynamicPressStall);
-
-
 
 
 
@@ -116,7 +123,25 @@ private class ButtonHandler	implements ActionListener
   {
 	  public	void actionPerformed(ActionEvent	e)
 	  {
-			tfSpan.setText( "" + cbAltCruiseSelector.getSelectedIndex() ) ;
+		   double span = Double.parseDouble(tfSpan.getText());
+         double chord = Double.parseDouble(tfChord.getText());
+         double vCruise = Double.parseDouble(tfVCruise.getText());
+         double vStall = Double.parseDouble(tfVStall.getText());
+         double cLiftMax = Double.parseDouble(tfCLiftMax.getText());
+         double cLiftCruise = Double.parseDouble(tfCLiftCruise.getText());
+         int altitudeTO = cbAltTOSelector.getSelectedIndex();
+         int altitudeCruise = cbAltCruiseSelector.getSelectedIndex();
+         
+        // int dayTemp = Integer.parseInt(tfChord.getText());
+         int dayTemp = 0;
+         
+        //	tfSpan.setText((chord * cbAltCruiseSelector.getSelectedIndex()) + "" ) ;
+         //public Wing(double spn,	double crd,	double vc, double	vs, double clm, double clc, int ato, int ac,	int dt)
+         Wing w = new Wing(span, chord, vCruise, vStall, cLiftMax, cLiftCruise, altitudeTO, altitudeCruise, dayTemp);
+         
+         lblWingArea.setText(""+ w.wingArea());
+         lblDynamicPressCruise.setText(""+ w.dynamicPressCruise(altitudeCruise, dayTemp));
+         lblDynamicPressStall.setText(""+ w.dynamicPressStall(altitudeCruise, dayTemp));
      }
 
 
